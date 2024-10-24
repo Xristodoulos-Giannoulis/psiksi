@@ -1,0 +1,333 @@
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    height: 40px;
+    background-color: #000080; /* Dark background for the header */
+    padding: 13px;
+}
+
+header {
+    background-color: #000080;
+    color: white;
+    padding: 17px;
+    text-align: right;
+    position: relative; /* Make sure the header can be a reference point for absolute positioning */
+}
+
+.logo {
+    position: absolute; /* Allows positioning relative to the header */
+    top: 20px; /* Adjust as needed */
+    left: 130px; /* Adjust as needed */
+    width: 40px; /* Adjust size as needed */
+    height: 40px;
+}
+.h_title{
+    font-size: 20px;
+    margin-left: 155px; /* Move the title to the right */
+    margin-top: -12px; /* Move the title down */
+    margin-bottom: 5px;
+    margin-right: 0;
+    color: white;
+    font-weight: 550;
+}
+.sub{
+    font-size: 12px;
+    margin-top: 13px;
+    margin-left: -163px;
+    
+}
+
+.welcome {
+    background-image: url('../images/test2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    height:65vh; /* Full height of the viewport */
+    text-align: center; /* Center text alignment */
+    text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.7);
+}
+.welcome p{
+    max-width: 650px;
+    font-size: 20px;
+    color: rgb(237, 237, 237);
+}
+.welcome h1{
+    font-weight: bold;
+    text-shadow: 6px 6px 10px rgba(0, 0, 0, 0.7);
+    font-size: 45px;
+    margin-bottom: 50px;
+    color: rgb(231, 231, 231);
+}
+.services{
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack elements vertically *//* Center content vertically */
+    align-items: center; /* Center content horizontally */
+/* Full height of the viewport */
+}
+.services h1{
+    margin-top: 50px;
+    color:rgb(44, 44, 44);
+    font-size: 45px;
+    font-weight: bold;
+
+}
+.margin-left {
+    margin-left: 40px; /* Adjust as needed */
+}
+.proionta{
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+.proionta h1{
+    margin-top: 50px;
+    color:rgb(44, 44, 44);
+    font-size: 45px;
+    font-weight: 400;
+
+}
+.product-carousel {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 20px 0;
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    min-width: 200px;
+    flex: 0 0 auto;
+    height: 350px;
+}
+
+.product-card img {
+    width: 220px;
+    height: 92px;
+    object-fit: contain;
+    margin-bottom: 80px;
+    margin-top: 20px;
+}
+
+.product-card p {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #808080;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #606060;
+}
+
+.all-products-btn {
+    background-color: #c25e34;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.all-products-btn:hover {
+    background-color: #a34726;
+}
+
+
+.disclaimer {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #777;
+}
+.margin-right {
+    margin-right: 40px; /* Adjust as needed */
+}
+.mydiv {
+    background-color: #000080; /* Dark blue color for the divider */
+    height: 50px; /* Height of the divider */
+    margin:  0px; /* Space above and below the divider */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    width: 100%;
+    bottom: 0;
+}
+footer p{
+    margin-top: 7px;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+.nav-links {
+    list-style: none; /* Remove bullet points */
+    display: flex; 
+    justify-content: flex-end;/* Align links side by side */ /* Add space between the links */
+}
+.nav-links a {
+
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Adjust the font size */
+    font-family: Arial, sans-serif; /* Font styling */
+}
+.nav-links a:hover{
+    color: rgb(204, 204, 204);
+}
+
+/* Style the individual links */
+nav {
+    margin-left: auto; /* This pushes the nav to the right */
+    margin-right: 100px;
+    margin-top: -5px;
+}
+.services .service-item {
+    border-radius: 5px;
+    padding: 40px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    background-color: rgb(219, 219, 219);
+  }
+  
+  
+  .services .service-item h4 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .services .service-item i {
+    transition: all .5s;
+    float: left;
+    font-size: 64px;
+    color: #43ba7f;
+    margin-bottom: 30px;
+    margin-right: 30px;
+  }
+  *{
+  box-sizing: border-box;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.katalogos{
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack elements vertically *//* Center content vertically */
+    align-items: center; /* Center content horizontally */
+/* Full height of the viewport */
+}
+.katalogos h1{
+    margin-top: 40px;
+    color:rgb(44, 44, 44);
+    font-size: 45px;
+    font-weight: bold;
+
+}
+  
+  @media (max-width: 1150px) {
+    .h_title, .sub, .nav-links a {
+        white-space: nowrap; /* Prevent text from wrapping to a new line */
+    }
+    header {
+        display: flex; /* Enable flexbox for header */
+        justify-content: center; /* Center all items horizontally */
+        align-items: center; /* Center items vertically */
+        text-align: center; /* Ensure text alignment is centered */
+    }
+    .h_title{
+        padding: 0px;
+        align-items: center;
+        margin: 0;
+        margin-left: 150px;
+        font-size: 15px;
+        display: flex; /* Use flexbox to center */
+        justify-content: center; /* Center horizontally */
+        width: 100%; /* Take full width */
+    }
+    nav {
+        margin-left: px; /* This pushes the nav to the right */
+        margin-right: auto;
+        margin-top: -5px;
+    }
+    .nav-links{
+        display: flex;
+        justify-content: flex-end;
+        padding: 5px;
+    }
+    
+    .nav-links a {
+        display:none;
+        gap: 20px;
+        left: 0;
+        position: relative;
+        padding: 5px; /* Adjust padding for smaller screens */
+        font-size: 13px; 
+        white-space: nowrap;/* Change font size */
+    }
+    .sub {
+        display: none; /* Hide the sub element */
+    }
+    .logo{
+        margin-top: -25px;
+        margin-right: -23px;
+        position: relative;
+        display: flex; /* Use flexbox to center */
+        justify-content: center;
+        align-items: center;
+    }
+    .welcome{
+        height: 65vh;
+    }
+    .welcome p{
+        max-width: 400px;
+        font-size: 16px;
+    }
+    .welcome h1{
+        font-size: 32px;
+    }
+    .services h1 {
+        font-size: 1.8rem; /* Adjust the main heading size */
+      }
+    
+      .services .service-item h4 {
+        font-size: 1.2rem; /* Make the service titles smaller */
+      }
+    
+      .services .service-item p {
+        font-size: 0.9rem; /* Reduce the paragraph text size */
+      }
+    
+      .services .service-item {
+        padding: 40px 20px; /* Reduce padding inside the service box */
+        margin-bottom: -40px; /* Reduce the bottom margin */
+      }
+    
+      .services .row {
+        row-gap: 20px; /* Reduce the gap between service boxes */
+      }
+}
