@@ -1,0 +1,111 @@
+[
+  {
+    "id": "kenzo-9000btu",
+    "name": "Toyotomi Kenzo 9000BTU",
+    "price": "379,99 €",
+    "image": "../images/Toyotomi_kenzo.png",
+    "buttonText": "Μόνο τηλεφωνικά",
+    "alt": "Toyotomi Kenzo 9000BTU",
+    "brand": "Toyotomi"
+  },
+  {
+    "id": "kenzo-12000btu",
+    "name": "Toyotomi Kenzo 12000BTU",
+    "price": "429,90 €",
+    "image": "../images/Toyotomi_kenzo.png",
+    "buttonText": "Μόνο τηλεφωνικά",
+    "alt": "Toyotomi Kenzo 12000BTU",
+    "brand": "Toyotomi"
+    
+  },
+  {
+    "id": "ikaros-9000btu",
+    "name": "Sendo Ikaros 9000BTU",
+    "price": "319,90 €",
+    "image": "../images/Sendo_Ikaros.jpg",
+    "buttonText": "Μόνο τηλεφωνικά",
+    "alt": "Sendo Ikaros 9000BTU",
+    "brand": "Sendo"
+  },
+  {
+    "id": "ikaros-18000btu",
+    "name": "Sendo Ikaros 18000BTU",
+    "price": "619,90 €",
+    "image": "../images/Sendo_Ikaros.jpg",
+    "buttonText": "Μόνο τηλεφωνικά",
+    "alt": "Sendo Ikaros 18000BTU",
+    "brand": "Sendo"
+  },
+  {
+    "id": "erai-9000btu-ai",
+    "name": "Toyotomi Erai - 9000BTU - A.I.",
+    "price": "489,90 €",
+    "image": "../images/Toyotomi_erai_blue.jpg",
+    "buttonText": "Μόνο τηλεφωνικά",
+    "alt": "Toyotomi Erai 9000BTU",
+    "brand": "Toyotomi"
+  },
+  {
+    "id": "erai-12000btu-ai",
+    "name": "Toyotomi Erai - 12000BTU - A.I.",
+    "price": "534,90 €",
+    "image": "../images/Toyotomi_erai_blue.jpg",
+    "buttonText": "Μόνο τηλεφωνικά",
+    "alt": "Toyotomi Erai 12000BTU",
+    "brand": "Toyotomi"
+  },
+  {
+    "id": "kenzo-18000btu",
+    "name": "Toyotomi Kenzo 18000BTU",
+    "price": "779,90 €",
+    "image": "../images/Toyotomi_kenzo.png",
+    "buttonText": "Μόνο τηλεφωνικά",
+    "alt": "Toyotomi Kenzo 18000BTU",
+    "brand": "Toyotomi"
+  },
+  {
+    "id": "kenzo-24000",
+    "name": "Toyotomi Kenzo 24000",
+    "price": "889,90 €",
+    "image": "../images/Toyotomi_kenzo.png",
+    "buttonText": "Μόνο τηλεφωνικά",
+    "alt": "Toyotomi Kenzo 24000",
+    "brand": "Toyotomi"
+  },
+  {
+    "id": "erai-24000btu-ai",
+    "name": "Toyotomi Erai - 24000BTU - A.I.",
+    "price": "929,90 €",
+    "image": "../images/Toyotomi_erai_blue.jpg",
+    "buttonText": "Μόνο τηλεφωνικά",
+    "alt": "Toyotomi Erai 24000BTU",
+    "brand": "Toyotomi"
+  },
+  {
+    "id": "erai-18000btu-ai",
+    "name": "Toyotomi Erai - 18000BTU - A.I.",
+    "price": "829,90 €",
+    "image": "../images/Toyotomi_erai_blue.jpg",
+    "buttonText": "Μόνο τηλεφωνικά",
+    "alt": "Toyotomi Erai 18000BTU",
+    "brand": "Toyotomi"
+  },
+  {
+    "id": "ikaros-24000btu",
+    "name": "Sendo Ikaros 24000BTU",
+    "price": "819,90 €",
+    "image": "../images/Sendo_Ikaros.jpg",
+    "buttonText": "Μόνο τηλεφωνικά",
+    "alt": "Sendo Ikaros 24000BTU",
+    "brand": "Sendo"
+  },
+  {
+    "id": "ikaros-12000btu",
+    "name": "Sendo Ikaros 12000BTU",
+    "price": "339,90 €",
+    "image": "../images/Sendo_Ikaros.jpg",
+    "buttonText": "Μόνο τηλεφωνικά",
+    "alt": "Sendo Ikaros 12000BTU",
+    "brand": "Sendo"
+  }
+]

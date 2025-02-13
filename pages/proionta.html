@@ -4,23 +4,38 @@
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="συντήρηση κλιματιστικού χανιά, ψυκτικός χανιά, κλιματιστικά χανιά, υπηρεσίες κλιματισμού, επισκευή ψυγείων χανιά, ψύξη γιαννούλης">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Ψύξη Γιαννούλης">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <title>Προϊόντα | Ψύξη Γιαννούλης | Χανιά</title>
+    <title>Κλιματιστικά -brand_name-| Ψύξη Γιαννούλης | Χανιά</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/x-icon" href="../images/crop.png">
+
 </head>
 <body>
     <header>
         <div class="container2">
-            <img src="../images/possiblelogo3.png" alt="Psiksi Logo" width="50" class="logo">
+            <!-- Logo -->
+            <img src="../images/possiblelogo3-min.png" alt="Ψύξη Γιαννούλης" width="50" class="logo">
+            
+            <!-- Hamburger Icon -->
+            <button id="nav-toggle" class="nav_logo" aria-label="Toggle Navigation">
+                <!-- Replace with text or keep the image -->
+                <img src="../images/nav_bar_icon2-min.png" alt="nav" height="50">
+            </button>
+            
+            <!-- Title -->
             <h2 class="h_title">Ψύξη Γιαννούλης</h2>
-            <p class="sub"> Κλιματιστικά - Παροχή Υπηρεσιών</p>
-
-            <nav class ="nav-links">
+            <p class="sub">Κλιματιστικά - Παροχή Υπηρεσιών</p>
+    
+            <!-- Navigation Links (Initially hidden on mobile) -->
+            <nav class="nav-links" id="nav-menu">
                 <ul>
-                    <li><a href="#">Αρχική</a></li>
-                    <li><a href="#">Σχετικά με εμάς</a></li>
-                    <li><a href="#">Υπηρεσίες</a></li>
-                    <li><a href="#">Επικοινωνήστε με μας</a></li>
+                    <li><a href="../index.html">Αρχική</a></li>
+                    <li><a class="main" href="proionta.html">Προϊόντα</a></li>
+                    <li><a  href="services.html">Υπηρεσίες</a></li>
                 </ul>
             </nav>
         </div>
@@ -28,7 +43,89 @@
     
     <main>
         <section class="katalogos">
-            <h1> Κατάλογος Προϊόντων</h1>
+                <div class="path">
+                    <a href="../index.html">Αρχική</a>
+                    <img src="../images/down.png" alt="Κλιματιστικά Χανιά" class="button-icon" loading="lazy">
+                    <p>Προϊόντα <br> </p>
+                </div>
+                <div class="proionta_title">
+                    <h1>Κατάλογος Προϊόντων</h1>
+                    <!-- <p>15 προϊόντα</p> -->
+                    <img src="../images/sxedio2.png" alt="Ψύξη Γιαννούλης Κλιμαατισμός" loading="lazy">
+                </div>
+                
+                <div class="products-section">
+                    <div class="sidebar">
+                        <!-- Sorting options -->
+                        <h1>Ταξινόμηση</h1>
+                        <label>
+                            <input type="radio" name="sort" value="ascending"> Αύξουσα τιμή
+                        </label>
+                        <label>
+                            <input type="radio" name="sort" value="descending"> Φθίνουσα τιμή
+                        </label>
+                    
+                        <!-- Filter by BTU -->
+                        <h1>Μέγεθος BTU</h1>
+                        <select id="btu-filter">
+                            <option value="all">Όλα</option>
+                            <option value="9000">9000 BTU</option>
+                            <option value="12000">12000 BTU</option>
+                            <option value="18000">18000 BTU</option>
+                            <option value="24000">24000 BTU</option>
+                        </select>
+                    
+                        <!-- Filter by Company -->
+                        <h1>Συνεργαζόμενες Εταιρείες</h1>
+                        <div class="company-filter">
+                            <a href="proionta.html?id=Toyotomi" data-company="toyotomi">
+                                <img src="../images/toyotomi-min.png" alt="Toyotomi Κλιματιστικά" data-company="toyotomi" loading="lazy">
+                            </a>
+                            <a href="proionta.html?id=Sendo" data-company="sendo">
+                                <img src="../images/sendo.png" alt="Sendo" data-company="sendo" loading="lazy">
+                            </a>
+                            <a href="proionta.html?id=Gree" data-company="gree">
+                                <img src="../images/gree2-min.png" alt="Gree" data-company="gree" loading="lazy">
+                            </a>
+                        </div>
+                        
+                    </div>
+                    
+                    <!-- Mobile view -->
+                    <div class="mobile-top-bar">
+                        <h2>Μάρκες</h2>
+                    
+                        <div class="company-filter">
+                            <a href="proionta.html?id=Toyotomi" data-company="toyotomi">
+                                <div class="company-logo">
+                                    <img src="../images/toyotomi-min.png" alt="toyotomi" loading="lazy">
+                                </div>
+                            </a>
+                            <a href="proionta.html?id=Sendo" data-company="Sendo" >
+                                <div class="company-logo">
+                                    <img src="../images/sendo.png" alt="sendo" loading="lazy">
+                                </div>
+                            </a>
+                            <a href="proionta.html?id=Gree" data-company="Gree">
+                                <div class="company-logo">
+                                    <img src="../images/gree2-min.png" alt="gree" loading="lazy">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="all_products">
+                        <!-- Products will go here -->
+                    </div>
+                </div>
+                
+                
+                
+                <!-- Add more product2 cards as needed -->
         </section>
-    </main>
+        <script src="../js/hamburger.js"></script>
+
+        <script src="../js/all_products_script.js"></script> 
+       </main>
 </body>
