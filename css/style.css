@@ -727,7 +727,7 @@ a[data-company="Sendo"] img {
     color: white; /* Button text color set to white */
     border: 2px solid white; /* White border */
     cursor: pointer;
-    font-size: 16px;
+    font-size: 15px;
     margin-top: 20px;
     border-radius: 5px;
     width: 200px;
@@ -1222,7 +1222,7 @@ a[data-company="Sendo"] img {
         padding: 8px 10px;
         width: 220px; /* Or any other desired width */
         height: 65px;
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 60px;
     }
     .ceo-section {
