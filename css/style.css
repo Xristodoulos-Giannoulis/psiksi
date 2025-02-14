@@ -509,12 +509,12 @@ nav {
     flex-direction: column; /* Align images vertically, one per row */
     justify-content: center; /* Center the images */
     align-items: center; /* Center the images horizontally */
-    gap: 20px; /* Space between images */
+    gap: 2px; /* Space between images */
 }
 
 .company-filter img {
-    width: 155px; /* Adjust the size as needed */
-    height: 85px; /* Maintain aspect ratio */
+    width: 140px; /* Adjust the size as needed */
+    height: 78px; /* Maintain aspect ratio */
     cursor: pointer; /* Make images clickable */
     border-radius: 35px; /* Adjust the value for more or less curve */
     border: 4px solid rgb(247, 247, 247);
