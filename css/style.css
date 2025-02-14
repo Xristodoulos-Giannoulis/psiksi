@@ -146,7 +146,7 @@ header {
     background-color: white;
     border: 1px solid #ececec;
     border-radius: 8px;
-    padding: 10px;
+    padding: 7px;
     text-align: center;
     width:auto;
     flex: 0 0 auto;
@@ -589,7 +589,7 @@ a[data-company="Sendo"] img {
         flex-direction: row; /* Align images vertically, one per row */
         justify-content: center; /* Center the images */
         align-items: center; /* Center the images horizontally */
-        gap: 20px; /* Space between images */
+        gap: 4px; /* Space between images */
     }
 
     .company-logo {
@@ -963,8 +963,8 @@ a[data-company="Sendo"] img {
       }
       .product-carousel {
         display: grid; /* Use grid layout */
-        grid-template-columns: 200px 200px; /* Two columns */
-        gap: 20px; /* Space between the products */
+        grid-template-columns: 190px 190px; /* Two columns */
+        gap: 5px; /* Space between the products */
         padding: 20px 0;
         justify-content: center;
     }
@@ -974,7 +974,7 @@ a[data-company="Sendo"] img {
         border: 1px solid #f1f1f1;
         padding: 10px;
         text-align: center;
-        width: 200px;
+        width: 185px;
         height: 300px; /* Fixed height for consistency */
     }
     
@@ -988,6 +988,9 @@ a[data-company="Sendo"] img {
     
     .product-card p {
         margin: 10px 0; /* Maintain margin for text */
+    }
+    .product-card button{
+        font-size:14px;
     }
     
     
