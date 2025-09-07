@@ -509,7 +509,7 @@ nav {
     flex-direction: column; /* Align images vertically, one per row */
     justify-content: center; /* Center the images */
     align-items: center; /* Center the images horizontally */
-    gap: 2px; /* Space between images */
+    gap: 20px; /* Space between images */
 }
 
 .company-filter img {
