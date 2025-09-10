@@ -28,7 +28,7 @@ fetch('../products2.json')
         if (brandFilter) {
             document.querySelectorAll(".company-filter a").forEach(anchor => {
                 if (anchor.dataset.company?.toLowerCase() === brandFilter.toLowerCase()) {
-                    anchor.querySelector("img").style.border = "4px solid #ffbb78";
+                    anchor.querySelector("img").style.border = "4px solid #0d0b52ff";
                 }
             });
         }
