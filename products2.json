@@ -106,5 +106,14 @@
         "alt": "Sendo Ikaros 12000BTU",
         "id": "ikaros-12000btu",
         "brand": "Sendo"
+    },
+    {
+        "image": "../images/denki1.jpg",
+        "buttonText": "Μόνο τηλεφωνικά",
+        "price": "249,90 \u20ac",
+        "name": "DENKI 9000BTU",
+        "alt": "DENKI 9000BTU",
+        "id": "denki-9000btu",
+        "brand": "DENKI"
     }
 ]
