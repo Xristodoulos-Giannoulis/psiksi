@@ -3,7 +3,7 @@
     "id": "kenzo-9000btu",
     "name": "Toyotomi Kenzo 9000BTU",
     "price": "379,99 €",
-    "image": "../images/Toyotomi_kenzo2.png",
+    "image": "../images/Toyotomi-kenzo2.png",
     "buttonText": "Μόνο τηλεφωνικά",
     "alt": "Toyotomi Kenzo 9000BTU",
     "brand": "Toyotomi"
@@ -12,7 +12,7 @@
     "id": "kenzo-12000btu",
     "name": "Toyotomi Kenzo 12000BTU",
     "price": "429,90 €",
-    "image": "../images/Toyotomi_kenzo2.png",
+    "image": "../images/Toyotomi-kenzo2.png",
     "buttonText": "Μόνο τηλεφωνικά",
     "alt": "Toyotomi Kenzo 12000BTU",
     "brand": "Toyotomi"
