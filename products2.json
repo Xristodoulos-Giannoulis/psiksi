@@ -1,6 +1,6 @@
 [
     {
-        "image": "../images/Toyotomi_kenzo2.png",
+        "image": "../images/Toyotomi-kenzo2.png",
         "buttonText": "Μόνο τηλεφωνικά",
         "price": "379,99 \u20ac",
         "name": "Toyotomi Kenzo 9000BTU",
@@ -9,7 +9,7 @@
         "brand": "Toyotomi"
     },
     {
-        "image": "../images/Toyotomi_kenzo2.png",
+        "image": "../images/Toyotomi-kenzo2.png",
         "buttonText": "Μόνο τηλεφωνικά",
         "price": "429,90 \u20ac",
         "name": "Toyotomi Kenzo 12000BTU",
@@ -54,7 +54,7 @@
         "brand": "Toyotomi"
     },
     {
-        "image": "../images/Toyotomi_kenzo2.png",
+        "image": "../images/Toyotomi-kenzo2.png",
         "buttonText": "Μόνο τηλεφωνικά",
         "price": "779,90 \u20ac",
         "name": "Toyotomi Kenzo 18000BTU",
@@ -63,7 +63,7 @@
         "brand": "Toyotomi"
     },
     {
-        "image": "../images/Toyotomi_kenzo2.png",
+        "image": "../images/Toyotomi-kenzo2.png",
         "buttonText": "Μόνο τηλεφωνικά",
         "price": "889,90 \u20ac",
         "name": "Toyotomi Kenzo 24000",
