@@ -92,7 +92,7 @@ header {
     align-items: center; /* Center content horizontally */
 /* Full height of the viewport */
 }
-.services h1{
+.services h2{
     margin-top: 50px;
     color:rgb(44, 44, 44);
     font-size: 45px;
@@ -115,7 +115,7 @@ header {
     padding: 20px;
     background-color: #f9f9f9;
 }
-.proionta h1{
+.proionta h2{
     margin-top: 50px;
     color:rgb(44, 44, 44);
     font-size: 45px;
@@ -941,7 +941,7 @@ a[data-company="Sendo"] img {
     .welcome h1{
         font-size: 32px;
     }
-    .services h1 {
+    .services h2 {
         font-size: 1.8rem; /* Adjust the main heading size */
       }
     
